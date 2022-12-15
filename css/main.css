@@ -178,6 +178,7 @@
 
   .footer-copyright-container {
     flex: 70%;
+    color: var(--alternate);
   }
 
   .footer-icon-container {
