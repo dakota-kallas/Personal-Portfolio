@@ -39,7 +39,7 @@
   }
 
   .nav-link:hover {
-    font-weight: bold;
+    font-weight: bolder;
   }
 
   .navbar {
@@ -177,11 +177,11 @@
   }
 
   .footer-copyright-container {
-    flex: 50%;
+    flex: 70%;
   }
 
   .footer-icon-container {
-    flex: 50%;
+    flex: 30%;
     display: flex;
     justify-content: space-evenly;
   }
