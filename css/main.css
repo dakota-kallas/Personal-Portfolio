@@ -184,8 +184,37 @@
     flex: 50%;
     background-color: var(--blue);
     border-radius: 0.5em;
-    height: 401px;
+    height: 400px;
     transition: all 0.2s ease-in-out;
+  }
+
+  .project-card:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+
+  .project-card img {
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    width: 100%;
+    height: 73.75%;
+  }
+
+  .project-description-container {
+    width: 100%;
+    text-align: center;
+    color: var(--light);
+  }
+
+  .project-description-container h1 {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+
+  .project-description-container h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 8px;
   }
 
   footer {
