@@ -1,0 +1,24 @@
+@media (min-width: 650px) {
+  .navbar {
+    border-bottom: 0px;
+  }
+
+  .navbar-container {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .home,
+  .projects {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0px;
+  }
+
+  .footer-container {
+    width: 80%;
+  }
+}
