@@ -39,6 +39,14 @@ let projects = [
     "project-brief": "A simple site demonstrating AJAX.",
     "project-url": "https://github.com/dakota-kallas/Weather-Collection",
   },
+  {
+    "project-id": "huffman",
+    "project-image": "images/huffman.png",
+    "project-image-alt": "huffman-img",
+    "project-name": "Huffman Encoder/Decoder",
+    "project-brief": "Encoder and decoder using Huffman Trees.",
+    "project-url": "https://github.com/dakota-kallas/Huffman-Encoder-Decoder",
+  },
 ];
 
 window.onload = loadContent;
