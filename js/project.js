@@ -47,6 +47,30 @@ let projects = [
     "project-brief": "Encoder and decoder using Huffman Trees.",
     "project-url": "https://github.com/dakota-kallas/Huffman-Encoder-Decoder",
   },
+  {
+    "project-id": "task-manager",
+    "project-image": "images/assets/task-manager.png",
+    "project-image-alt": "task-manager-img",
+    "project-name": "RPG Task Manager",
+    "project-brief": "An RPG take on a task manager.",
+    "project-url": "https://github.com/dakota-kallas/Task-Manager-RPG",
+  },
+  {
+    "project-id": "office-hours",
+    "project-image": "images/assets/office-hours.png",
+    "project-image-alt": "office-hours-img",
+    "project-name": "Office Hours Simulation",
+    "project-brief": "Simulate a professor's office hours.",
+    "project-url": "https://github.com/dakota-kallas/Office-Hours-Simulation",
+  },
+  {
+    "project-id": "first-program",
+    "project-image": "images/assets/first-program.png",
+    "project-image-alt": "first-program-img",
+    "project-name": "My First Program",
+    "project-brief": "A simple drawing made with Java.",
+    "project-url": "https://github.com/dakota-kallas/My-First-Program",
+  },
 ];
 
 window.onload = loadContent;
