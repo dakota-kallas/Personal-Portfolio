@@ -13,6 +13,7 @@
     padding: 0.75rem;
     text-align: center !important;
   }
+
   .footer-icon {
     width: 50px !important;
     height: 50px !important;
@@ -23,8 +24,17 @@
     max-width: 400px !important;
     height: 400px !important;
   }
+
   .intro-headings {
     margin: 0 5rem !important;
+  }
+
+  .project-description-container h1 {
+    font-size: 22px !important;
+  }
+
+  .project-description-container h2 {
+    font-size: 18px !important;
   }
 }
 
@@ -272,14 +282,14 @@
   }
 
   .project-description-container h1 {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 0;
   }
 
   .project-description-container h2 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: normal;
-    margin-top: 8px;
+    margin: 8px 3px 1rem;
   }
 
   .blurred {
