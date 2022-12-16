@@ -226,8 +226,8 @@
 
   .blurred {
     transition: all 0.2s ease-in-out;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
   }
 
   .view-link {
