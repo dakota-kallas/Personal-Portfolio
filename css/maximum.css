@@ -1,0 +1,13 @@
+@media (min-width: 1350px) {
+  .project-container {
+    max-width: 1308px;
+    padding: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+  }
+
+  .project-card {
+    margin: 15px;
+  }
+}

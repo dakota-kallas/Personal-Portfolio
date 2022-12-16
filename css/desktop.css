@@ -1,0 +1,45 @@
+@media (min-width: 1000px) {
+  .home,
+  .projects {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .computer-container {
+    height: fit-content;
+  }
+
+  .computers {
+    margin-bottom: -0.25rem;
+    width: fit-content;
+  }
+
+  .about {
+    padding: 9rem 4.5rem;
+  }
+
+  .about-container {
+    padding: 0.75rem;
+    width: 60%;
+  }
+
+  .is-long {
+    padding-bottom: 16rem;
+  }
+
+  .project-container {
+    max-width: 890px;
+  }
+
+  .project-card-container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .footer-container {
+    width: 50%;
+  }
+}
