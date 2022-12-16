@@ -18,6 +18,25 @@
     gap: 0px;
   }
 
+  .headshot {
+    width: 210px;
+    margin: 2rem 0;
+  }
+
+  .skillset-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    background-color: var(--primary);
+    border-radius: 12px;
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px var(--light);
+  }
+
+  .column-left {
+    border-right: 1px solid var(--light);
+    border-bottom: 0px;
+  }
+
   .footer-container {
     width: 80%;
   }

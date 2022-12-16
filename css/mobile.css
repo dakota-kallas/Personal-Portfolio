@@ -8,12 +8,29 @@
   --light: #e6ecf8;
 }
 
+@media (min-width: 450px) {
+  .about-container {
+    padding: 0.75rem;
+    text-align: center !important;
+  }
+  .footer-icon {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .project-card {
+    min-width: 400px !important;
+    max-width: 400px !important;
+    height: 400px !important;
+  }
+}
+
 @media (min-width: 0px) {
   body {
     font-family: "Rubik", sans-serif;
     margin: 0;
     position: relative;
-    min-width: 450px;
+    min-width: 350px;
   }
 
   a {
@@ -118,6 +135,7 @@
 
   .about-container {
     padding: 0.75rem;
+    text-align: left;
   }
 
   .about h1 {
@@ -167,8 +185,6 @@
   }
 
   .skillset-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     background-color: var(--primary);
     border-radius: 12px;
@@ -184,7 +200,7 @@
   }
 
   .column-left {
-    border-right: 1px solid var(--light);
+    border-bottom: 1px solid var(--light);
   }
 
   .backend-development {
@@ -218,12 +234,12 @@
   .project-card {
     position: relative;
     margin: 20px;
-    min-width: 400px;
-    max-width: 400px;
+    min-width: 300px;
+    max-width: 300px;
     flex: 50%;
     background-color: var(--blue);
     border-radius: 0.5em;
-    height: 400px;
+    height: 300px;
     transition: all 0.2s ease-in-out;
     box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px var(--light);
   }
@@ -332,8 +348,8 @@
   }
 
   .footer-icon {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
   }
 
   #github-icon {
