@@ -356,27 +356,30 @@
   }
 
   #github-icon {
-    background: transparent center/cover url("../images/github.png") no-repeat;
+    background: transparent center/cover url("../images/assets/github.png")
+      no-repeat;
   }
 
   #github-icon:hover {
-    background-image: url("../images/github-hover.png");
+    background-image: url("../images/assets/github-hover.png");
   }
 
   #linkedin-icon {
-    background: transparent center/cover url("../images/linkedin.png") no-repeat;
+    background: transparent center/cover url("../images/assets/linkedin.png")
+      no-repeat;
   }
 
   #linkedin-icon:hover {
-    background-image: url("../images/linkedin-hover.png");
+    background-image: url("../images/assets/linkedin-hover.png");
   }
 
   #email-icon {
-    background: transparent center/cover url("../images/email.png") no-repeat;
+    background: transparent center/cover url("../images/assets/email.png")
+      no-repeat;
   }
 
   #email-icon:hover {
-    background-image: url("../images/email-hover.png");
+    background-image: url("../images/assets/email-hover.png");
   }
 
   .is-secondary {

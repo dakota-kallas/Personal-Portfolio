@@ -1,7 +1,7 @@
 let projects = [
   {
     "project-id": "goodfight",
-    "project-image": "images/goodfight.png",
+    "project-image": "images/assets/goodfight.png",
     "project-image-alt": "goodfight-img",
     "project-name": "The Goodfight",
     "project-brief": "JavaFX application for Non-profit.",
@@ -9,7 +9,7 @@ let projects = [
   },
   {
     "project-id": "webpage",
-    "project-image": "images/personal-webpage.png",
+    "project-image": "images/assets/personal-webpage.png",
     "project-image-alt": "webpage-img",
     "project-name": "First Personal Webpage",
     "project-brief": "Personal website made with HTML/CSS.",
@@ -17,7 +17,7 @@ let projects = [
   },
   {
     "project-id": "bills-burgers",
-    "project-image": "images/bills-burgers.png",
+    "project-image": "images/assets/bills-burgers.png",
     "project-image-alt": "bills-burgers-img",
     "project-name": "Restaurant Website",
     "project-brief": "HTML/CSS site made to practice.",
@@ -25,7 +25,7 @@ let projects = [
   },
   {
     "project-id": "compiler",
-    "project-image": "images/compiler.png",
+    "project-image": "images/assets/compiler.png",
     "project-image-alt": "compiler-img",
     "project-name": "Mini-C Compiler",
     "project-brief": "Compiler written for a C-like language.",
@@ -33,7 +33,7 @@ let projects = [
   },
   {
     "project-id": "weather-collection",
-    "project-image": "images/weather-collection.png",
+    "project-image": "images/assets/weather-collection.png",
     "project-image-alt": "weather-collection-img",
     "project-name": "Weather Collection",
     "project-brief": "A simple site demonstrating AJAX.",
@@ -41,7 +41,7 @@ let projects = [
   },
   {
     "project-id": "huffman",
-    "project-image": "images/huffman.png",
+    "project-image": "images/assets/huffman.png",
     "project-image-alt": "huffman-img",
     "project-name": "Huffman Encoder/Decoder",
     "project-brief": "Encoder and decoder using Huffman Trees.",
@@ -110,7 +110,7 @@ function addProjectHover(e) {
   viewButtonContainer.appendChild(viewButton);
   viewButton.appendChild(viewButtonText);
   var viewButtonOpen = document.createElement("img");
-  viewButtonOpen.setAttribute("src", "images/open.png");
+  viewButtonOpen.setAttribute("src", "images/assets/open.png");
   viewButtonOpen.setAttribute("alt", "open-img");
   viewButtonContainer.appendChild(viewButtonOpen);
   viewButtonContent.appendChild(viewButtonContainer);
