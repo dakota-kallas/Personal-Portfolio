@@ -130,6 +130,7 @@
 
   .headshot {
     width: 210px;
+    height: 210px;
     margin: 2rem 0;
   }
 
@@ -140,6 +141,7 @@
   .computers {
     margin-bottom: -0.25rem;
     width: 100%;
+    height: auto;
   }
 
   .about {
@@ -206,6 +208,7 @@
 
   .skill-icon {
     width: 4rem;
+    height: 4rem;
   }
 
   .column {
