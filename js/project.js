@@ -1,5 +1,13 @@
 let projects = [
   {
+    "project-id": "game-shelf",
+    "project-image": "images/assets/game-shelf.png",
+    "project-image-alt": "game-shelf-img",
+    "project-name": "Game Shelf",
+    "project-brief": "A MEAN stack web application.",
+    "project-url": "https://github.com/dakota-kallas/Game-Shelf",
+  },
+  {
     "project-id": "goodfight",
     "project-image": "images/assets/goodfight.png",
     "project-image-alt": "goodfight-img",
